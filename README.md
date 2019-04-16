@@ -1,5 +1,7 @@
 # PAY.CARDS RECOGNIZER
 
+[![](https://jitpack.io/v/LouisP79/CardScanner.svg)](https://jitpack.io/#LouisP79/CardScanner)
+
 Automatic recognition of bank card data using built-in camera on Android devices.
 
 See live demo: [pay.cards](https://play.google.com/store/apps/details?id=cards.pay.sample.demo)
@@ -10,7 +12,8 @@ See live demo: [pay.cards](https://play.google.com/store/apps/details?id=cards.p
 
     ```gradle
     repositories {
-         maven { url "http://pay.cards/maven" }
+        ...
+        maven { url 'https://jitpack.io' }
     }
     ```
 
@@ -18,9 +21,9 @@ See live demo: [pay.cards](https://play.google.com/store/apps/details?id=cards.p
 * Add the dependency
 
     ```gradle
-    dependencies {
-        compile 'cards.pay:paycardsrecognizer:1.0.0'
-    }
+	dependencies {
+	    implementation 'com.github.LouisP79:CardScanner:v1.0'
+	}
     ```
 
 ### Usage
