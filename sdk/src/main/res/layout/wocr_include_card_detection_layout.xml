@@ -30,10 +30,4 @@
         app:wocr_layout_cardAlignGravity="top|center_horizontal"
         tools:ignore="SpUsage" />
 
-    <TextView
-        android:id="@+id/wocr_powered_by_paycards_link"
-        app:wocr_layout_cardAlignGravity="bottom|left"
-        tools:ignore="SpUsage"
-        style="@style/wocr_PaycardsButton" />
-
 </cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout>
