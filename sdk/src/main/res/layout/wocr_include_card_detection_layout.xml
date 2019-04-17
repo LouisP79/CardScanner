@@ -32,7 +32,6 @@
 
     <TextView
         android:id="@+id/wocr_powered_by_paycards_link"
-        android:text="@string/wocr_powered_by_pay_cards"
         app:wocr_layout_cardAlignGravity="bottom|left"
         tools:ignore="SpUsage"
         style="@style/wocr_PaycardsButton" />
