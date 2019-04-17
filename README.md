@@ -22,7 +22,7 @@ See live demo: [pay.cards](https://play.google.com/store/apps/details?id=cards.p
 
     ```gradle
 	dependencies {
-	    implementation 'com.github.LouisP79:CardScanner:v1.0'
+	    implementation 'com.github.LouisP79:CardScanner:v1.1'
 	}
     ```
 
